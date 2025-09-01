@@ -14,11 +14,11 @@
     <form>
       <div class="mb-3">
         <label for="usuario" class="form-label">Usuario</label>
-        <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu usuario" required>
+        <input type="text" class="form-control" id="usuario" name="nombre" placeholder="Ingresa tu usuario" required>
       </div>
       <div class="mb-3">
         <label for="contraseña" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="contraseña" placeholder="Ingresa tu contraseña" required>
+        <input type="password" class="form-control" id="contraseña" name="clave" placeholder="Ingresa tu contraseña" required>
       </div>
       <button type="submit" class="btn btn-primary w-100">Entrar</button>
     </form>
